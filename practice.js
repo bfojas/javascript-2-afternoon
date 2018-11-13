@@ -15,6 +15,12 @@
 */
 
 //Code here
+const me = {
+  name:'Brad',
+  age: 36
+}
+
+alert(me.age);
 
 
 
@@ -26,7 +32,14 @@
 */
 
 //Code here
-
+const favoriteThings = {
+  band: 'Wu Tang Clan',
+  food: 'Pizza',
+  person: 'Maggie',
+  book: ' ',
+  movie: 'Half Baked',
+  holiday: 'NYE'
+}
 
 
 /*
@@ -34,7 +47,8 @@
 */
 
 //Code here
-
+favoriteThings.car = 'Dodge Challenger';
+favoriteThings.brand = 'Nike';
 
 
 /*
@@ -42,6 +56,8 @@
 */
 
 //Code here
+favoriteThings.food = 'Chicken Nuggets';
+favoriteThings.book = 'Harry Potter';
 
 
 
@@ -56,6 +72,11 @@
 */
 
 //Code here
+const backPack = {};
+let item = 'firstPocket';
+backPack['firstPocket'] = item;
+backPack['firstPocket'] = 'chapstick';
+backPack.color = 'red';
 
 
 
@@ -64,7 +85,7 @@
 */
 
 //Code here
-
+alert(backPack);
 
 
 /*
@@ -97,6 +118,9 @@ var user2 = {
 */
 
 //Code Here
+user2.name = 'Tyler S. McGinnis';
+user2.email = 'tyler.mcginnis@devmounta.in'
+
 
 
 
