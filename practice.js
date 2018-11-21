@@ -142,9 +142,10 @@ user2.email = 'tyler.mcginnis@devmounta.in'
 /*
   Create an empty object called methodCollection.
 */
-
+const methodCollection = {}
 //Code Here
-
+methodCollection.alertHello = () =>alert('hello');
+methodCollection.logHello = () => console.log('hello');
 
 
 /*
@@ -172,7 +173,13 @@ user2.email = 'tyler.mcginnis@devmounta.in'
 */
 
 //Code Here
-
+const makePerson = (name, birthday, ssn) => {
+  return {
+    name: name,
+    birthday:birthday,
+    ssn:ssn
+  }
+}
 
 
 ////////// PROBLEM 7 //////////
@@ -183,5 +190,12 @@ user2.email = 'tyler.mcginnis@devmounta.in'
 */
 
 //Code Here
+const makeCard = (cardNumber, expirationDate, securityCode) =>{
+  return {
+    cardNumber:cardNumber,
+    expirationDate:expirationDate,
+    securityCode:securityCode
+  }
+}
 
 
